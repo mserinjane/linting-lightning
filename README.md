@@ -1,2 +1,2 @@
 # linting-lightning
-Adding linting for Lightning components in vscode
+Adding linting for Salesforce Lightning components in vscode
