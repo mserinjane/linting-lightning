@@ -1,0 +1,28 @@
+{
+  "name": "eslint-plugin-linting-lightning",
+  "version": "0.0.7",
+  "description": "Opinionated Lightning Linting",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Erin Jane",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~3.9.1",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "vscode": "^1.8.0"
+  },
+  "license": "ISC",
+  "publisher": "ejane"
+}

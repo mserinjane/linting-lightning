@@ -1,0 +1,23 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": "linting-lightning",
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly",
+        "sforce": "readonly",
+        "$A": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "plugins": ["linting-lightning"],
+    "rules": {
+        "linting-lightning/no-cmp-e-h": 2,
+        "linebreak-style": 0,
+        "func-names": 0,
+        "no-unused-expressions": 0
+    }
+}
